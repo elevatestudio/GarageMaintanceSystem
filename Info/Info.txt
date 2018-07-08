@@ -1,0 +1,52 @@
+GMS
+================+
+Kilenci		|
+================+
+Dodawanie
+Modyfikacja
+Usuwanie
+Tabela:
+	ID
+	Name
+	Surname
+	Telephone
+	Address
+	Email
+================+
+Samochody	|
+================+
+Dodawanie (powi¹zanie z klientem)
+Modyfikcja
+Usuwanie samochodu wraz z jego histori¹
+Tabela:
+	ID
+	OwnerID
+	Mark
+	Model
+	Engine
+	VIN
+	Plate_Number
+	Additional_Info
+
+===========+
+v0.1	   |
+===========+
+================+
+Historia	|
+================+
+Generowanie pliku (ID_samochodu.json)
+Dodawanie wpisów do historii napraw
+Edycja
+IntelliSence (auto podpowiedzi)
+2 wersje historii (mechanik, klient)
+
+============================+
+Historia (JSON,struktura)   |
+============================+
+Data naprawy
+Czêsci i cena
+Wydruk historii klienta (PDF,Excell)
+
+===========+
+v0.2	   |
+===========+
